@@ -1,5 +1,4 @@
 import React from 'react';
-import {slugify} from '../helpers.js';
 import { Link } from 'react-router-dom';
 
 class Gallery extends React.Component {
@@ -21,7 +20,7 @@ class Gallery extends React.Component {
               to={`/sauce/${id}`}
             >    
               <div className="hotsauce-img" style={{ backgroundImage: `url(${imageURL})` }}>
-                <img alt={slugify(title)} src={imageURL} />
+                <img alt={title} src={imageURL} />
               </div>
               <div className="hotsauce-info">
                 <h2>{title}</h2>
