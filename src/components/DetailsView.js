@@ -1,7 +1,6 @@
 import React from 'react';
 import NotFound from './NotFound.js';
 import sauceInventory from '../hotsauces.json';
-import { slugify } from '../helpers.js';
 import { Link } from 'react-router-dom';
 
 const DetailsView = ({ match }) => {  
@@ -19,7 +18,7 @@ const DetailsView = ({ match }) => {
       <h1 className="page-title">{currentSauce.title}</h1>
       <div className="page-left">
         <div className="detail-image">
-          <img alt={slugify(currentSauce.title)} src={currentSauce.imageURL} />
+          <img alt={currentSauce.title} src={currentSauce.imageURL} />
         </div>
       </div>
       <div className="page-right">
