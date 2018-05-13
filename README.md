@@ -4,9 +4,9 @@ This project was created as a way to learn the basics of React. Because it pulls
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-To run locally: 
-npm install
-npm start 
+#To run locally: 
+* npm install
+* npm start 
 
 ![screenshot](https://github.com/stefamy/some-like-it-hot-sauce/blob/master/screenshot.png)
 ![screenshot two](https://github.com/stefamy/some-like-it-hot-sauce/blob/master/screenshot2.png)
